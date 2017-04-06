@@ -26,7 +26,7 @@
 
 \begin{document}
 
-\problemlist{1, 2, 3}
+\problemlist{1, 2}
 
 \begin{problem}[1.]
     \textbf{Teleportation is Nothing without the Phone Call}\footnote{This problem illustrates two important points.  First, teleportation is a complete failure without Alice's classical communication to Bob; without that, Bob learns nothing about Charlie's input state.  Second, even if two quantum systems are entangled, nothing that happens to the first system alone can instantaneously change the \textit{reduced density matrix} for the second system alone.}
@@ -97,6 +97,8 @@
 \end{solution}
 \newpage
 
+\headerblock
+\problemlist{3}
 \begin{problem}[3.]
     \textbf{Secret-Sharing with Different GHZ States}\\
     Chapter 10 presents a protocol by which Alice shares a binary key between Bob and Charlie by using three-qubit GHZ states $\ket{\Psi_{GHZ}} = \frac{1}{\sqrt{2}}\bigl(\ket{000}+\ket{111}\bigr)$ shared between the three individuals.  One GHZ state generates one bit of the key.  Alice and Bob each independently choose to measure their qubits in the $\{\ket{+x},\ket{-x}\}$ or $\{\ket{+y},\ket{-y}\}$ basis.  Conditioned on their measurement choices and results, Charlie's qubit is in one of the states $\ket{+x}$, $\ket{-x}$, $\ket{+y}$, or $\ket{-y}$.  If Charlie chooses an appropriate measurement basis, his measurement result and Bob's can be used together to determine Alice's.
